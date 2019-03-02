@@ -1,7 +1,7 @@
-LOCAL_PATH := device/meizu/m3s
+LOCAL_PATH := device/vernee/thor_e
 
 # Platform
-TARGET_BOARD_PLATFORM := mt6750
+TARGET_BOARD_PLATFORM := mt6753
 
 TARGET_IS_64_BIT := true
 TARGET_BOARD_SUFFIX := _64
@@ -9,7 +9,7 @@ TARGET_USES_64_BIT_BINDER := true
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
-TARGET_BOOTLOADER_BOARD_NAME := mt6750
+TARGET_BOOTLOADER_BOARD_NAME := mt6753
 
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -61,7 +61,7 @@ TW_THEME := portrait_hdpi
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery/recovery.fstab
 RECOVERY_SDCARD_ON_DATA := true
-TW_DEVICE_VERSION := by ElXreno (v0.1.2-alpha)
+TW_DEVICE_VERSION := by imolo4nik
 TW_NO_BATT_PERCENT := true
 # TW_CUSTOM_BATTERY_PATH := /sys/devices/platform/battery/power_supply/battery/capacity # Doesn't work properly
 TW_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
